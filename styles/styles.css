@@ -18,6 +18,15 @@ p a {
   text-decoration: none;
 }
 
+@font-face {
+  font-family: "Questrial";
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+  src: local("Questrial"), local("Questrial-Regular"),
+    url(../fonts/Questrial-Regular.ttf) format("truetype");
+}
+
 .main {
   padding: 75px 85px 50px;
   position: fixed;
